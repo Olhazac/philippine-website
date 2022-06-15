@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,9 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.welcomeBackground {
+  background-image: url('https://i.natgeofe.com/n/04505c35-858b-4e95-a1a7-d72e5418b7fc/steep-karst-cliffs-of-el-nido-in-palawan.jpg');
+  filter: blur(4px) brightness(50%);
 }
